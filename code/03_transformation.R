@@ -124,7 +124,7 @@ ggplot(runoff_year[year > 1980], aes(x = year, y = value_norm, col = sname)) +
   scale_color_manual(values = colorRampPalette(colset_4)(n_stations)) +
   theme_bw()
 
-#spatial visualization of stations 
+#spatial visualization of stations in case not availabe install using install.packages()
 library(mapview) 
 library(sf) 
 
